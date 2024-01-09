@@ -1,0 +1,4 @@
+queue_rules:
+    - name: default
+      batch_size: 5 # do we want this at a different size?
+      merge_method: squash
