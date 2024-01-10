@@ -1,5 +1,5 @@
 queue_rules:
     - name: default
       batch_size: 5 # do we want this at a different size?
-      merge_method: squash
+      merge_method: rebase
       allow_inplace_checks: false
